@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula - 03</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h2>Pokemons</h2>
+    </header>
+
+    <main id="mainContainer">
+        <form class="c-main__search" onsubmit="handleSubmit(event)">
+            <label for="pokeName">Buscar Pokemon</label>
+            <div>
+                <input type="text" name="pokeName" id="pokeName" placeholder="Ex.: pikachu">
+                <button type="submit">Buscar</button>
+            </div>
+        </form>
+
+
+        <section id="pokemonsContainer">
+            <!-- Pokemons-->
+        </section>
+
+
+        <section class="c-main__pagination">
+            <button onclick="firstPage()">Primeira Página</button>
+            <button onclick="prevPageFunc()">Voltar</button>
+            <button onclick="nextPageFunc()">Próximo</button>
+            <button onclick="lastPage()">Última Página</button>
+            <p>Página <span id="currentPage">0</span> de <span id="totalPages">0</span></p>
+        </section>
+    </main>
+
+    <footer>
+        <span>Todos os direitos reservados</span>
+    </footer>
+
+
+    <script src="./main.js"></script>
+</body>
+</html>

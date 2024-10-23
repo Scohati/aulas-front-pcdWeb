@@ -1,0 +1,12 @@
+.header {
+    width: 100vw; /* view width */
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 100dvw;
+    height: calc(100vh - 80px);
+} 

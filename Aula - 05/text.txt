@@ -1,0 +1,4 @@
+npm init -y | Criar o arquivo de configuração "package.json", para utilização do "type: module".
+Podendo assim modularizar a aplicação. (export e import)
+
+npx create-react-app nome-do-app | Iniciar projeto React
