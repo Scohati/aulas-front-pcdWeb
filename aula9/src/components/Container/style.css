@@ -1,0 +1,8 @@
+.poke-container {
+    width: 100vw;
+    height: calc(100vh - 140px);
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
